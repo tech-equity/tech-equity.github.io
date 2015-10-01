@@ -1,13 +1,79 @@
 body {
-  font-family: 'brandon_grotesquelight';
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-font-smoothing:antialiased;
   text-rendering: optimizeLegibility;
-  height: 10000px; /* Hack for sticky nav */
 }
+
 
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
-  font-weight: normal;
+  font-weight: 400;
 }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 46px;
+}
+
+p {
+  padding-top: 3px;
+}
+
+.header-top-container {
+  height: 72vh;
+  padding-top: 10%;
+  color: #fff;
+  text-align: center;
+  background: #2c4a86;
+}
+
+input {
+  height: 40px;
+  margin-top: 25px;
+  padding: 7px 8px;
+  outline: 0;
+  background: transparent;
+  border: none;
+}
+
+.email {
+  border-bottom: .16em solid rgba(0,0,0,.2);
+}
+
+.button {
+  margin-left: 20px;
+  padding: 7px 12px;
+  color: #2c4a86;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  background: #fff;
+  border-radius: 3px;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255,255,255,.5);
+  font-style: italic;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255,255,255,.5);
+  font-style: italic;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(255,255,255,.5);
+  font-style: italic; 
+}
+
+:-ms-input-placeholder {  
+  color: rgba(255,255,255,.5);
+  font-style: italic;
+}
+
+
 
 
